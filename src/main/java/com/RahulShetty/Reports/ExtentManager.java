@@ -9,7 +9,7 @@ public class ExtentManager {
 	public static ExtentTest test;
 
 	static {
-		String reportPath = System.getProperty("user.dir") + "/reports/index.html";
+		String reportPath = System.getProperty("user.dir") + "/reports/ExtentReport.html";
 
 		ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 		spark.config().setReportName("Automation Test Results");

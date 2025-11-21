@@ -20,20 +20,26 @@ public class Hooks extends BaseTest {
 	}
 
 	@After
+
 	public void tearDown(Scenario scenario) {
 
-		if (scenario.isFailed()) {
-			String screenshotpath = ScreenshotUtils.captureSS(driver, scenario.getName());
-			ExtentManager.test.log(Status.INFO, "Scenario Failed");
-			ExtentManager.test.addScreenCaptureFromPath(screenshotpath);
-		} else {
-			ExtentManager.test.log(Status.INFO, "Scenario passed");
+		try {
+			if (scenario.isFailed()) {
+				String screenshotpath = ScreenshotUtils.captureSS(driver, scenario.getName());
+				ExtentManager.test.log(Status.FAIL, "Scenario Failed");
+				ExtentManager.test.addScreenCaptureFromPath(screenshotpath);
+			} else {
+				ExtentManager.test.log(Status.PASS, "Scenario passed");
+			}
 
+		} catch (Exception e) {
+			ExtentManager.test.log(Status.WARNING, "Error in tearDown: " + e.getMessage());
 		}
 
-		driver.quit();
+		if (driver != null) {
+			driver.quit();
+		}
 
 		ExtentManager.extent.flush();
-
 	}
 }
