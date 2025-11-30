@@ -68,4 +68,35 @@ public class AutomationPageStepDefs {
 		Assert.assertEquals(page.GetSelectedOption(), expectedValue);
 
 	}
+
+	@When("user selects the following checkboxes:")
+	public void userSelectsTheFollowingCheckboxes(io.cucumber.datatable.DataTable dataTable) {
+		page = new AutomationPage(DriverFactory.getDriver());
+		for (String checkbox : dataTable.asList()) {
+			page.selectCheckbox(checkbox);
+		}
+	}
+
+	@Then("the following checkboxes should be selected:")
+	public void theFollowingCheckboxesShouldBeSelected(io.cucumber.datatable.DataTable dataTable) {
+		for (String checkbox : dataTable.asList()) {
+			Assert.assertTrue(page.isCheckboxSelected(checkbox), checkbox + " is not selected");
+		}
+
+	}
+
+	@When("user types {string} in suggestion box")
+	public void userTypesInSuggestionBox(String Text) {
+		page.TypeInSuggestionBox(Text);
+	}
+
+	@When("user selects {string} from suggestions")
+	public void userSelectsFromSuggestions(String value) {
+		page.SelectSuggestion(value);
+	}
+
+	@Then("suggestion selected value should be {string}")
+	public void suggestionSelectedValueShouldBe(String Expected) {
+		Assert.assertEquals(page.GetselectedSuggestion(), Expected);
+	}
 }

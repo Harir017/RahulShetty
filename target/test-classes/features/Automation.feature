@@ -21,4 +21,26 @@ Scenario: Verify user can select values from Dropdown
 	Then dropdown value should be "Option2" 
 	
 	When user selects "Option3" from dropdown 
-	Then dropdown value should be "Option3"
+	Then dropdown value should be "Option3" 
+	
+	
+Scenario: Verify user can select multiple checkbox 
+
+	Given user is on Automation Practice Page 
+	When user selects the following checkboxes: 
+		| Option1 |
+		| Option2 |
+		| Option3 |
+	Then the following checkboxes should be selected: 
+		| Option1 |
+		| Option2 |
+		| Option3 |
+		
+@runThis 
+Scenario: verify user can select country from suggestion dropdown 
+
+	Given user is on Automation Practice Page 
+	When user types "In" in suggestion box 
+	And user selects "India" from suggestions 
+	Then suggestion selected value should be "India" 
+		

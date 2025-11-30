@@ -1,10 +1,11 @@
 package com.RahulShetty.Pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-
 import com.RahulShetty.Base.BasePage;
 
 public class AutomationPage extends BasePage {
@@ -19,6 +20,21 @@ public class AutomationPage extends BasePage {
 
 	@FindBy(id = "dropdown-class-example")
 	WebElement Dropdown;
+
+	@FindBy(id = "checkBoxOption1")
+	WebElement Checkbox1;
+
+	@FindBy(id = "checkBoxOption2")
+	WebElement checkbox2;
+
+	@FindBy(id = "checkBoxOption3")
+	WebElement checkbox3;
+
+	@FindBy(id = "autocomplete")
+	WebElement SuggestionInput;
+
+	@FindBy(css = "div.ui-menu-item-wrapper")
+	List<WebElement> suggenstionlist;
 
 	public AutomationPage(WebDriver driver) {
 		super(driver);
@@ -59,4 +75,52 @@ public class AutomationPage extends BasePage {
 
 	}
 
+	public void selectCheckbox(String checkboxName) {
+		switch (checkboxName.toLowerCase()) {
+		case "option1":
+			Checkbox1.click();
+			break;
+		case "option2":
+			checkbox2.click();
+			break;
+		case "option3":
+			checkbox3.click();
+			break;
+		}
+	}
+
+	public boolean isCheckboxSelected(String checkboxName) {
+		switch (checkboxName.toLowerCase()) {
+		case "option1":
+			return Checkbox1.isSelected();
+		case "option2":
+			return checkbox2.isSelected();
+		case "option3":
+			return checkbox3.isSelected();
+		default:
+			return false;
+		}
+
+	}
+
+	public void TypeInSuggestionBox(String Text) {
+		SuggestionInput.clear();
+		SuggestionInput.sendKeys(Text);
+
+	}
+
+	public void SelectSuggestion(String value) {
+
+		for (WebElement option : suggenstionlist) {
+			if (option.getText().equalsIgnoreCase(value)) {
+				option.click();
+				return;
+			}
+		}
+		throw new RuntimeException("Option not found: " + value);
+	}
+
+	public String GetselectedSuggestion() {
+		return SuggestionInput.getAttribute("value");
+	}
 }
