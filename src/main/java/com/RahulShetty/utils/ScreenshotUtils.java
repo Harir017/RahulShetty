@@ -19,7 +19,7 @@ public class ScreenshotUtils {
 
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(destPath);
-
+	    dest.getParentFile().mkdirs();
 		try {
 			FileUtils.copyFile(src, dest);
 		} catch (IOException e) {

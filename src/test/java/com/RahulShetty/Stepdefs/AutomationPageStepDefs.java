@@ -2,20 +2,19 @@ package com.RahulShetty.Stepdefs;
 
 import org.testng.Assert;
 
-import com.RahulShetty.Base.BaseTest;
-import com.RahulShetty.Hooks.Hooks;
+import com.RahulShetty.Driver.DriverFactory;
 import com.RahulShetty.Pages.AutomationPage;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class AutomationPageStepDefs extends BaseTest {
+public class AutomationPageStepDefs {
 	AutomationPage page;
 
 	@Given("user is on Automation Practice Page")
 	public void user_is_on_automation_practice_page() {
-		page = new AutomationPage(Hooks.driver);
+		page = new AutomationPage(DriverFactory.getDriver());
 	}
 
 	@When("user selects Radio1")
@@ -34,7 +33,6 @@ public class AutomationPageStepDefs extends BaseTest {
 	@When("user selects Radio2")
 	public void user_selects_radio2() {
 		page.selectRadio2();
-		;
 
 	}
 
@@ -60,4 +58,14 @@ public class AutomationPageStepDefs extends BaseTest {
 
 	}
 
+	@When("user selects {string} from dropdown")
+	public void userSelectsFromDropdown(String option) {
+		page.selectDropdownByText(option);
+	}
+
+	@Then("dropdown value should be {string}")
+	public void dropdownValueShouldBe(String expectedValue) {
+		Assert.assertEquals(page.GetSelectedOption(), expectedValue);
+
+	}
 }

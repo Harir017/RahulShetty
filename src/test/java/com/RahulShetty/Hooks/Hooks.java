@@ -1,6 +1,7 @@
 package com.RahulShetty.Hooks;
 
 import com.RahulShetty.Base.BaseTest;
+import com.RahulShetty.Driver.DriverFactory;
 import com.RahulShetty.Reports.ExtentManager;
 import com.RahulShetty.utils.ScreenshotUtils;
 import com.aventstack.extentreports.Status;
@@ -25,7 +26,7 @@ public class Hooks extends BaseTest {
 
 		try {
 			if (scenario.isFailed()) {
-				String screenshotpath = ScreenshotUtils.captureSS(driver, scenario.getName());
+				String screenshotpath = ScreenshotUtils.captureSS(DriverFactory.getDriver(), scenario.getName());
 				ExtentManager.test.log(Status.FAIL, "Scenario Failed");
 				ExtentManager.test.addScreenCaptureFromPath(screenshotpath);
 			} else {
@@ -36,8 +37,8 @@ public class Hooks extends BaseTest {
 			ExtentManager.test.log(Status.WARNING, "Error in tearDown: " + e.getMessage());
 		}
 
-		if (driver != null) {
-			driver.quit();
+		if (DriverFactory.getDriver() != null) {
+		    DriverFactory.getDriver().quit();
 		}
 
 		ExtentManager.extent.flush();

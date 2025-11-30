@@ -45,12 +45,11 @@
         </dependency>
 
         <!-- ✅ TestNG -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
-        </dependency>
+       <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+</dependency>
 
         <!-- ✅ WebDriverManager -->
         <dependency>
@@ -65,8 +64,21 @@
             <artifactId>extentreports</artifactId>
             <version>5.1.1</version>
         </dependency>
+        
+        <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.22.0</version>
+</dependency>
 
-        <!-- ✅ Apache POI (Excel read/write) -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.22.0</version>
+</dependency>
+
+
+		<!-- ✅ Apache POI (Excel read/write) -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -90,7 +102,7 @@
     <build>
         <plugins>
 
-            <!-- ✅ Maven Compiler Plugin -->
+			<!-- ✅ Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -101,7 +113,7 @@
                 </configuration>
             </plugin>
 
-            <!-- ✅ Maven Surefire Plugin (runs TestNG/Cucumber tests) -->
+			<!-- ✅ Maven Surefire Plugin (runs TestNG/Cucumber tests) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -112,8 +124,8 @@
                     </includes>
                 </configuration>
             </plugin>
-            
-            <!-- For ExtentSparkReporter compatibility -->
+
+			<!-- For ExtentSparkReporter compatibility -->
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-resources-plugin</artifactId>
