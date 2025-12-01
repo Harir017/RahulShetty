@@ -119,4 +119,52 @@ public class AutomationPageStepDefs {
 	public void userClosesTheNewWindowAndReturnsToParent() {
 		page.closeChildWindow();
 	}
+
+	@When("user clicks Open Tab")
+	public void userClicksOpenTab() {
+		page.ClickOpenTab();
+	}
+
+	@Then("user should switch to the new tab")
+	public void userShouldSwitchToTheNewTab() {
+		page.SwitchtoNewWindow();
+	}
+
+	@Then("new tab title should contain {string}")
+	public void newTabTitleShouldContain(String TabTitle) {
+		Assert.assertTrue(page.getTabTitle().contains(TabTitle), "New tab title mismatch");
+	}
+
+	@When("user enters {string} in alert input box")
+	public void userEntersInAlertInputBox(String string) {
+		page.EnterAlertName(string);
+	}
+
+	@When("user clicks the Alert button")
+	public void userClicksTheAlertButton() {
+		page.ClickAlterButton();
+	}
+
+	@Then("alert message should contain {string}")
+	public void alertMessageShouldContain(String string) {
+		String Actual = DriverFactory.getDriver().switchTo().alert().getText();
+		Assert.assertTrue(Actual.contains(string), "Actual alert: " + Actual);
+		DriverFactory.getDriver().switchTo().alert().accept();
+	}
+
+	@When("user clicks the Confirm button")
+	public void userClicksTheConfirmButton() {
+		page.ClickConfirmButton();
+	}
+
+	@Then("confirm alert message should contain {string}")
+	public void confirmAlertMessageShouldContain(String string) {
+		String actual = DriverFactory.getDriver().switchTo().alert().getText();
+		Assert.assertTrue(actual.contains(string), "Actual confirm alert: " + actual);
+	}
+
+	@Then("user accepts the confirm alert")
+	public void userAcceptsTheConfirmAlert() {
+		DriverFactory.getDriver().switchTo().alert().accept();
+	}
 }

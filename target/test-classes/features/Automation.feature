@@ -12,7 +12,6 @@ Scenario: Verify each radio button can be selected individually
 	Then only Radio3 should be selected 
 	
 Scenario: Verify user can select values from Dropdown 
-
 	Given user is on Automation Practice Page 
 	When user selects "Option1" from dropdown 
 	Then dropdown value should be "Option1" 
@@ -25,7 +24,6 @@ Scenario: Verify user can select values from Dropdown
 	
 	
 Scenario: Verify user can select multiple checkbox 
-
 	Given user is on Automation Practice Page 
 	When user selects the following checkboxes: 
 		| Option1 |
@@ -36,20 +34,35 @@ Scenario: Verify user can select multiple checkbox
 		| Option2 |
 		| Option3 |
 		
- 
 Scenario: verify user can select country from suggestion dropdown 
-
 	Given user is on Automation Practice Page 
 	When user types "In" in suggestion box 
 	And user selects "India" from suggestions 
 	Then suggestion selected value should be "India" 
 	
-	@runThis
 Scenario: Verify user can switch to new window 
-
 	Given user is on Automation Practice Page 
 	When user click on open window button 
 	Then user should switch to the new window 
 	And the new window title should contain "QAClick Academy" 
 	And user closes the new window and returns to parent 
-		
+	
+Scenario: Verify user can switch to new Tab 
+	Given user is on Automation Practice Page 
+	When user clicks Open Tab 
+	Then user should switch to the new tab 
+	And new tab title should contain "QAClick Academy" 
+	
+@runThis 
+Scenario: verify simple alert 
+	Given user is on Automation Practice Page 
+	When user enters "Hariharan" in alert input box 
+	And user clicks the Alert button 
+	Then alert message should contain "Hello Hariharan" 
+@runThis 
+Scenario: Verify confirm alert works 
+	Given user is on Automation Practice Page 
+	When user enters "Hariharan" in alert input box 
+	And user clicks the Confirm button 
+	Then confirm alert message should contain "Hello Hariharan" 
+	And user accepts the confirm alert

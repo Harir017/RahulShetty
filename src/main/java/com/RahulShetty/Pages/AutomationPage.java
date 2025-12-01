@@ -39,6 +39,18 @@ public class AutomationPage extends BasePage {
 	@FindBy(id = "openwindow")
 	WebElement OpenWindowButton;
 
+	@FindBy(xpath = "//a[@id='opentab']")
+	WebElement OpenTab;
+
+	@FindBy(xpath = "//input[@id='name']")
+	WebElement EnterNameBox;
+
+	@FindBy(xpath = "//input[@id='alertbtn']")
+	WebElement AlertButton;
+
+	@FindBy(xpath = "//input[@id='confirmbtn']")
+	WebElement ConfirmButton;
+
 	public AutomationPage(WebDriver driver) {
 		super(driver);
 	}
@@ -160,4 +172,36 @@ public class AutomationPage extends BasePage {
 		driver.close();
 		driver.switchTo().window(parent);
 	}
+
+	public void ClickOpenTab() {
+		OpenTab.click();
+	}
+
+	public void OpenNewTab() {
+		String parent = driver.getWindowHandle();
+		for (String Tab : driver.getWindowHandles()) {
+			if (!Tab.equals(parent)) {
+				driver.switchTo().window(Tab);
+				break;
+			}
+		}
+	}
+
+	public String getTabTitle() {
+		return driver.getTitle();
+	}
+
+	public void EnterAlertName(String Name) {
+		EnterNameBox.clear();
+		EnterNameBox.sendKeys(Name);
+	}
+
+	public void ClickAlterButton() {
+		AlertButton.click();
+	}
+
+	public void ClickConfirmButton() {
+		ConfirmButton.click();
+	}
+
 }
