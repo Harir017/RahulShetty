@@ -36,6 +36,9 @@ public class AutomationPage extends BasePage {
 	@FindBy(css = "div.ui-menu-item-wrapper")
 	List<WebElement> suggenstionlist;
 
+	@FindBy(id = "openwindow")
+	WebElement OpenWindowButton;
+
 	public AutomationPage(WebDriver driver) {
 		super(driver);
 	}
@@ -122,5 +125,39 @@ public class AutomationPage extends BasePage {
 
 	public String GetselectedSuggestion() {
 		return SuggestionInput.getAttribute("value");
+	}
+
+	public void OpenWindow() {
+		OpenWindowButton.click();
+	}
+
+	public void SwitchtoNewWindow() {
+		String parent = driver.getWindowHandle();
+		for (String window : driver.getWindowHandles()) {
+			if (!window.equals(parent)) {
+				driver.switchTo().window(window);
+				return;
+			}
+		}
+
+	}
+
+	public boolean GetNewWindowTile(String Title) {
+		return driver.getTitle().contains(Title);
+
+	}
+
+	public void closeChildWindow() {
+		String parent = driver.getWindowHandle();
+		String child = "";
+
+		for (String window : driver.getWindowHandles()) {
+			if (!window.equals(parent)) {
+				child = window;
+			}
+		}
+		driver.switchTo().window(child);
+		driver.close();
+		driver.switchTo().window(parent);
 	}
 }

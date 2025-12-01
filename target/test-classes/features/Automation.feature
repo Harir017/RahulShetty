@@ -36,11 +36,20 @@ Scenario: Verify user can select multiple checkbox
 		| Option2 |
 		| Option3 |
 		
-@runThis 
+ 
 Scenario: verify user can select country from suggestion dropdown 
 
 	Given user is on Automation Practice Page 
 	When user types "In" in suggestion box 
 	And user selects "India" from suggestions 
 	Then suggestion selected value should be "India" 
+	
+	@runThis
+Scenario: Verify user can switch to new window 
+
+	Given user is on Automation Practice Page 
+	When user click on open window button 
+	Then user should switch to the new window 
+	And the new window title should contain "QAClick Academy" 
+	And user closes the new window and returns to parent 
 		

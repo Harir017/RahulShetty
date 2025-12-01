@@ -99,4 +99,24 @@ public class AutomationPageStepDefs {
 	public void suggestionSelectedValueShouldBe(String Expected) {
 		Assert.assertEquals(page.GetselectedSuggestion(), Expected);
 	}
+
+	@When("user click on open window button")
+	public void userClickOnOpenWindowButton() {
+		page.OpenWindow();
+	}
+
+	@Then("user should switch to the new window")
+	public void userShouldSwitchToTheNewWindow() {
+		page.SwitchtoNewWindow();
+	}
+
+	@Then("the new window title should contain {string}")
+	public void theNewWindowTitleShouldContain(String Title1) {
+		Assert.assertTrue(page.GetNewWindowTile(Title1), "Title does not contain expected text!");
+	}
+
+	@Then("user closes the new window and returns to parent")
+	public void userClosesTheNewWindowAndReturnsToParent() {
+		page.closeChildWindow();
+	}
 }
