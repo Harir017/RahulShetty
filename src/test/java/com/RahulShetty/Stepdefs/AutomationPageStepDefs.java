@@ -167,4 +167,34 @@ public class AutomationPageStepDefs {
 	public void userAcceptsTheConfirmAlert() {
 		DriverFactory.getDriver().switchTo().alert().accept();
 	}
+
+	@When("user enters {string} into the display field")
+	public void userEntersIntoTheDisplayField(String string) {
+		page.TypeinDisplayBox(string);
+	}
+
+	@Then("the text field should be displayed")
+	public void theTextFieldShouldBeDisplayed() {
+		Assert.assertTrue(page.IsDisplayFieldVisible(), "Field is NOT visible!");
+	}
+
+	@When("user clicks Hide button")
+	public void userClicksHideButton() {
+		page.ClickHideButton();
+	}
+
+	@Then("the text field should be hidden")
+	public void theTextFieldShouldBeHidden() {
+		Assert.assertFalse(page.IsDisplayFieldVisible(), "Field is still visible!");
+	}
+
+	@When("user clicks Show button")
+	public void userClicksShowButton() {
+		page.ClickShowButton();
+	}
+
+	@Then("the text field should be displayed again")
+	public void theTextFieldShouldBeDisplayedAgain() {
+		Assert.assertTrue(page.IsDisplayFieldVisible(), "Field is NOT visible after clicking Show!");
+	}
 }

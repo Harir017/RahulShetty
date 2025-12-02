@@ -53,16 +53,27 @@ Scenario: Verify user can switch to new Tab
 	Then user should switch to the new tab 
 	And new tab title should contain "QAClick Academy" 
 	
-@runThis 
 Scenario: verify simple alert 
 	Given user is on Automation Practice Page 
 	When user enters "Hariharan" in alert input box 
 	And user clicks the Alert button 
 	Then alert message should contain "Hello Hariharan" 
-@runThis 
+	
 Scenario: Verify confirm alert works 
 	Given user is on Automation Practice Page 
 	When user enters "Hariharan" in alert input box 
 	And user clicks the Confirm button 
 	Then confirm alert message should contain "Hello Hariharan" 
-	And user accepts the confirm alert
+	And user accepts the confirm alert 
+	
+@runThis 
+Scenario: Verify Hide and Show functionality 
+	Given user is on Automation Practice Page 
+	When user enters "Hari" into the display field 
+	Then the text field should be displayed 
+	
+	When user clicks Hide button 
+	Then the text field should be hidden 
+	
+	When user clicks Show button 
+	Then the text field should be displayed again

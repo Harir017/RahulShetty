@@ -51,6 +51,15 @@ public class AutomationPage extends BasePage {
 	@FindBy(xpath = "//input[@id='confirmbtn']")
 	WebElement ConfirmButton;
 
+	@FindBy(xpath = "//input[@id='displayed-text']")
+	WebElement DisplayBox;
+
+	@FindBy(id = "hide-textbox")
+	WebElement HideButton;
+
+	@FindBy(id = "show-textbox")
+	WebElement ShowButton;
+
 	public AutomationPage(WebDriver driver) {
 		super(driver);
 	}
@@ -204,4 +213,20 @@ public class AutomationPage extends BasePage {
 		ConfirmButton.click();
 	}
 
+	public void TypeinDisplayBox(String Name) {
+		DisplayBox.clear();
+		DisplayBox.sendKeys(Name);
+	}
+
+	public void ClickHideButton() {
+		HideButton.click();
+	}
+
+	public void ClickShowButton() {
+		ShowButton.click();
+	}
+
+	public boolean IsDisplayFieldVisible() {
+		return DisplayBox.isDisplayed();
+	}
 }
