@@ -1,5 +1,7 @@
 package com.RahulShetty.Stepdefs;
 
+import java.util.Map;
+
 import org.testng.Assert;
 
 import com.RahulShetty.Driver.DriverFactory;
@@ -196,5 +198,37 @@ public class AutomationPageStepDefs {
 	@Then("the text field should be displayed again")
 	public void theTextFieldShouldBeDisplayedAgain() {
 		Assert.assertTrue(page.IsDisplayFieldVisible(), "Field is NOT visible after clicking Show!");
+	}
+
+	@Then("web table should have {int} rows")
+	public void webTableShouldHaveRows(Integer int1) {
+		Assert.assertEquals(page.getRowCount(), int1);
+	}
+
+	@Then("row {int} should contain:")
+	public void rowShouldContain(Integer int1, io.cucumber.datatable.DataTable dataTable) {
+		String expectedInstructor = dataTable.asMap().get("Instructor");
+		String ExpectedCourse = dataTable.asMap().get("Course");
+		String ExpectedPrice = dataTable.asMap().get("Price");
+
+		Assert.assertEquals(page.GetCellData(int1, 0), expectedInstructor);
+		Assert.assertEquals(page.GetCellData(int1, 1), ExpectedCourse);
+		Assert.assertEquals(page.GetCellData(int1, 2), ExpectedPrice);
+	}
+
+	@Then("fixed header table should have {int} rows")
+	public void fixedHeaderTableShouldHaveRows(Integer int2) {
+		Assert.assertEquals(page.getFixedTableRowCount(), int2);
+	}
+
+	@Then("fixed row {int} should contain:")
+	public void fixedRowShouldContain(Integer int2, io.cucumber.datatable.DataTable dataTable) {
+		Map<String, String> expected = dataTable.asMap(String.class, String.class);
+		Map<String, String> Actual = page.getFixedTableRowData(int2);
+
+		for (String key : expected.keySet()) {
+			Assert.assertEquals(Actual.get(key), expected.get(key));
+		}
+
 	}
 }

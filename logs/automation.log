@@ -257,3 +257,101 @@
 2025-12-02 08:34:40 INFO  BaseTest:38 - Implicit wait set to 10 seconds
 2025-12-02 08:34:40 INFO  BaseTest:40 - Window maximized
 2025-12-02 08:34:42 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-02 13:31:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-02 13:31:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-02 13:31:32 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-02 13:31:35 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-02 13:31:35 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-02 13:31:35 INFO  BaseTest:40 - Window maximized
+2025-12-02 13:31:36 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-02 14:02:37 INFO  BaseTest:22 - Loading config properties...
+2025-12-02 14:02:37 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-02 14:02:37 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-02 14:02:38 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-02 14:02:38 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-02 14:02:38 INFO  BaseTest:40 - Window maximized
+2025-12-02 14:02:39 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 05:59:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 05:59:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 05:59:32 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 05:59:34 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 05:59:34 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 05:59:34 INFO  BaseTest:40 - Window maximized
+2025-12-03 05:59:35 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 06:02:48 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 06:02:48 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 06:02:48 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 06:02:49 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 06:02:50 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 06:02:50 INFO  BaseTest:40 - Window maximized
+2025-12-03 06:02:51 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 06:05:25 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 06:05:25 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 06:05:25 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 06:05:26 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 06:05:26 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 06:05:26 INFO  BaseTest:40 - Window maximized
+2025-12-03 06:05:27 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 06:21:57 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 06:21:57 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 06:21:57 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 06:21:58 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 06:21:58 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 06:21:58 INFO  BaseTest:40 - Window maximized
+2025-12-03 06:22:00 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:12:39 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 07:12:39 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 07:12:39 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:12:40 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 07:12:40 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 07:12:40 INFO  BaseTest:40 - Window maximized
+2025-12-03 07:12:42 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:21:26 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 07:21:26 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 07:21:26 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:21:27 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 07:21:27 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 07:21:27 INFO  BaseTest:40 - Window maximized
+2025-12-03 07:21:29 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:23:57 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 07:23:57 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 07:23:57 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:23:58 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 07:23:58 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 07:23:58 INFO  BaseTest:40 - Window maximized
+2025-12-03 07:23:59 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:30:00 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 07:30:00 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 07:30:00 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:30:01 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 07:30:01 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 07:30:01 INFO  BaseTest:40 - Window maximized
+2025-12-03 07:30:03 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:36:49 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 07:36:49 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 07:36:49 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 07:36:50 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 07:36:50 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 07:36:50 INFO  BaseTest:40 - Window maximized
+2025-12-03 07:36:52 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 12:42:31 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 12:42:31 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 12:42:31 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 12:42:34 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 12:42:34 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 12:42:34 INFO  BaseTest:40 - Window maximized
+2025-12-03 12:42:35 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 12:54:13 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 12:54:13 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 12:54:13 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 12:54:15 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 12:54:15 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 12:54:15 INFO  BaseTest:40 - Window maximized
+2025-12-03 12:54:18 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 12:57:54 INFO  BaseTest:22 - Loading config properties...
+2025-12-03 12:57:54 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-03 12:57:54 INFO  BaseTest:27 - URL from config: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-03 12:57:55 INFO  BaseTest:33 - Chrome browser launched successfully
+2025-12-03 12:57:55 INFO  BaseTest:38 - Implicit wait set to 10 seconds
+2025-12-03 12:57:55 INFO  BaseTest:40 - Window maximized
+2025-12-03 12:57:56 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/

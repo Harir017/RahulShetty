@@ -66,7 +66,7 @@ Scenario: Verify confirm alert works
 	Then confirm alert message should contain "Hello Hariharan" 
 	And user accepts the confirm alert 
 	
-@runThis 
+	
 Scenario: Verify Hide and Show functionality 
 	Given user is on Automation Practice Page 
 	When user enters "Hari" into the display field 
@@ -76,4 +76,31 @@ Scenario: Verify Hide and Show functionality
 	Then the text field should be hidden 
 	
 	When user clicks Show button 
-	Then the text field should be displayed again
+	Then the text field should be displayed again 
+	
+Scenario: Verify Web Table Data 
+	Given user is on Automation Practice Page 
+	Then web table should have 10 rows 
+	And row 1 should contain: 
+		| Instructor | Rahul Shetty |
+		| Course     | Selenium Webdriver with Java Basics + Advanced + Interview Guide |
+		| Price      | 30 |
+	And row 2 should contain: 
+		| Instructor | Rahul Shetty |
+		| Course     | Learn SQL in Practical + Database Testing from Scratch |
+		| Price      | 25 |
+@runThis 
+Scenario: Verify Web Table Fixed Header 
+	Given user is on Automation Practice Page 
+	Then fixed header table should have 9 rows
+	 And fixed row 1 should contain:
+    | Name     | Alex      |
+    | Position | Engineer  |
+    | City     | Chennai   |
+    | Amount   | 28        |
+
+  And fixed row 2 should contain:
+    | Name     | Ben        |
+    | Position | Mechanic   |
+    | City     | Bengaluru  |
+    | Amount   | 23         |

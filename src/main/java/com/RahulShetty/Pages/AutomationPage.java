@@ -1,7 +1,10 @@
 package com.RahulShetty.Pages;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -59,6 +62,15 @@ public class AutomationPage extends BasePage {
 
 	@FindBy(id = "show-textbox")
 	WebElement ShowButton;
+
+	@FindBy(css = ".table-display tbody tr")
+	List<WebElement> tableRows;
+
+	@FindBy(css = ".table-display tbody tr td")
+	List<WebElement> tableData;
+
+	@FindBy(css = ".tableFixHead table tbody tr")
+	List<WebElement> FixedTableRows;
 
 	public AutomationPage(WebDriver driver) {
 		super(driver);
@@ -228,5 +240,33 @@ public class AutomationPage extends BasePage {
 
 	public boolean IsDisplayFieldVisible() {
 		return DisplayBox.isDisplayed();
+	}
+
+	public int getRowCount() {
+		return tableRows.size() - 1;
+	}
+
+	public String GetCellData(int row, int col) {
+		WebElement rowElement = tableRows.get(row);
+		List<WebElement> cells = rowElement.findElements(By.tagName("td"));
+		return cells.get(col).getText().trim();
+	}
+
+	public int getFixedTableRowCount() {
+		return FixedTableRows.size();
+	}
+
+	public Map<String, String> getFixedTableRowData(int RowIndex) {
+		WebElement row = FixedTableRows.get(RowIndex - 1);
+		List<WebElement> cell = row.findElements(By.tagName("td"));
+
+		Map<String, String> rowdata = new HashMap<>();
+		rowdata.put("Name", cell.get(0).getText());
+		rowdata.put("Position", cell.get(1).getText());
+		rowdata.put("City", cell.get(2).getText());
+		rowdata.put("Amount", cell.get(3).getText());
+
+		return rowdata;
+
 	}
 }
