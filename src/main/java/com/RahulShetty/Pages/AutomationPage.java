@@ -4,9 +4,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.math3.ml.neuralnet.sofm.LearningFactorFunction;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import com.RahulShetty.Base.BasePage;
@@ -71,6 +74,21 @@ public class AutomationPage extends BasePage {
 
 	@FindBy(css = ".tableFixHead table tbody tr")
 	List<WebElement> FixedTableRows;
+
+	@FindBy(id = "mousehover")
+	WebElement HoverButton;
+
+	@FindBy(css = ".mouse-hover-content a[href='#top']")
+	WebElement TopHoverButton;
+
+	@FindBy(css = ".mouse-hover-content a:nth-child(2)")
+	WebElement ReloadHoverButton;
+
+	@FindBy(id = "courses-iframe")
+	WebElement coursesIframe;
+
+	@FindBy(css = "a[href='/learning-paths']")
+	WebElement browseLearningPathsLink;
 
 	public AutomationPage(WebDriver driver) {
 		super(driver);
@@ -268,5 +286,38 @@ public class AutomationPage extends BasePage {
 
 		return rowdata;
 
+	}
+
+	public void OverMouseHoverButton() {
+		Actions act = new Actions(driver);
+		act.moveToElement(HoverButton).perform();
+	}
+
+	public void clickTopButton() {
+		TopHoverButton.click();
+	}
+
+	public void ClickReloadButton() {
+		ReloadHoverButton.click();
+	}
+
+	public void SwitchToIframe() {
+		driver.switchTo().frame(coursesIframe);
+
+	}
+
+	public void ClickLearningPathsInIframe() {
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", browseLearningPathsLink);
+		browseLearningPathsLink.click();
+
+	}
+
+	public boolean isLearningPathsVisible() {
+		return browseLearningPathsLink.isDisplayed();
+	}
+
+	public void SwitchBackToDefault() {
+		driver.switchTo().defaultContent();
 	}
 }

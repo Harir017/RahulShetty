@@ -89,18 +89,36 @@ Scenario: Verify Web Table Data
 		| Instructor | Rahul Shetty |
 		| Course     | Learn SQL in Practical + Database Testing from Scratch |
 		| Price      | 25 |
-@runThis 
+		
 Scenario: Verify Web Table Fixed Header 
 	Given user is on Automation Practice Page 
-	Then fixed header table should have 9 rows
-	 And fixed row 1 should contain:
-    | Name     | Alex      |
-    | Position | Engineer  |
-    | City     | Chennai   |
-    | Amount   | 28        |
-
-  And fixed row 2 should contain:
-    | Name     | Ben        |
-    | Position | Mechanic   |
-    | City     | Bengaluru  |
-    | Amount   | 23         |
+	Then fixed header table should have 9 rows 
+	And fixed row 1 should contain: 
+		| Name     | Alex      |
+		| Position | Engineer  |
+		| City     | Chennai   |
+		| Amount   | 28        |
+		
+	And fixed row 2 should contain: 
+		| Name     | Ben        |
+		| Position | Mechanic   |
+		| City     | Bengaluru  |
+		| Amount   | 23         |
+		
+Scenario: Verify Mouse Hover Options work 
+	Given user is on Automation Practice Page 
+	When user hovers on Mouse Hover button 
+	And user clicks Top option 
+	And user selects Radio1 
+	Then only Radio1 should be selected 
+	When user hovers on Mouse Hover button 
+	And user clicks Reload option 
+	Then page should reload successfully 
+	
+	
+Scenario: Verify iframe interaction 
+	Given user is on Automation Practice Page 
+	When user switches to courses iframe 
+	And user clicks Learning Paths inside iframe 
+	Then Learning Paths option should be visible inside iframe 
+	Then user switches back to main page

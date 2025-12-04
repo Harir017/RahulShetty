@@ -231,4 +231,45 @@ public class AutomationPageStepDefs {
 		}
 
 	}
+
+	@When("user hovers on Mouse Hover button")
+	public void userHoversOnMouseHoverButton() {
+		page.OverMouseHoverButton();
+	}
+
+	@When("user clicks Top option")
+	public void userClicksTopOption() {
+		page.clickTopButton();
+	}
+
+	@When("user clicks Reload option")
+	public void userClicksReloadOption() {
+		page.ClickReloadButton();
+	}
+
+	@Then("page should reload successfully")
+	public void pageShouldReloadSuccessfully() {
+		String url = DriverFactory.getDriver().getCurrentUrl();
+		Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
+	}
+
+	@When("user switches to courses iframe")
+	public void userSwitchesToCoursesIframe() {
+		page.SwitchToIframe();
+	}
+
+	@When("user clicks Learning Paths inside iframe")
+	public void userClicksLearningPathsInsideIframe() {
+		page.ClickLearningPathsInIframe();
+	}
+
+	@Then("Learning Paths option should be visible inside iframe")
+	public void learningPathsOptionShouldBeVisibleInsideIframe() {
+		Assert.assertTrue(page.isLearningPathsVisible(), "Learning Paths link is NOT visible inside iframe");
+	}
+
+	@Then("user switches back to main page")
+	public void userSwitchesBackToMainPage() {
+		page.SwitchBackToDefault();
+	}
 }
