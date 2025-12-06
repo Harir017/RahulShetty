@@ -23,8 +23,6 @@ public class BaseTest {
 		prop = ConfigReader.initProperties();
 		String browser = prop.getProperty("browser");
 		log.info("Browser selected: " + browser);
-		String Url = prop.getProperty("baseUrl");
-		log.info("URL from config: " + Url);
 
 		WebDriver driver = null;
 		if (browser.equalsIgnoreCase("chrome")) {
@@ -38,8 +36,12 @@ public class BaseTest {
 		log.info("Implicit wait set to 10 seconds");
 		driver.manage().window().maximize();
 		log.info("Window maximized");
-		driver.get(Url);
-		log.info("Navigated to: " + Url);
+
+	}
+
+	public void NavigateTo(String URL) {
+		DriverFactory.getDriver().get(URL);
+		log.info("Navigated to: " + URL);
 
 	}
 }

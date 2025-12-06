@@ -1,91 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-04T03:54:00 EST" name="Default suite" finished-at="2025-12-04T03:54:48 EST" duration-ms="48115">
+  <suite started-at="2025-12-06T03:39:23 EST" name="Default suite" finished-at="2025-12-06T03:41:26 EST" duration-ms="123035">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-12-04T03:54:00 EST" name="Default test" finished-at="2025-12-04T03:54:48 EST" duration-ms="48115">
+    <test started-at="2025-12-06T03:39:23 EST" name="Default test" finished-at="2025-12-06T03:41:26 EST" duration-ms="123035">
       <class name="com.RahulShetty.Runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:00 EST" name="setUpClass" finished-at="2025-12-04T03:54:01 EST" duration-ms="642" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:23 EST" name="setUpClass" finished-at="2025-12-06T03:39:24 EST" duration-ms="606" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@669513d8]]>
+                <![CDATA[org.testng.TestRunner@664a9613]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:42 EST" duration-ms="41184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify each radio button can be selected individually"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Practise Page Testing"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38923" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user can switch to new window"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Practise Page Testing"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38905" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify user can select country from suggestion dropdown"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Practise Page Testing"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38904" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user can select multiple checkbox"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Practise Page Testing"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38904" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:06 EST" duration-ms="102842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38934" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:40:57 EST" duration-ms="93602" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify confirm alert works"]]>
+                <![CDATA["Verify user can switch to new window"]]>
               </value>
             </param>
             <param index="1">
@@ -117,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38904" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:14 EST" duration-ms="110466" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Web Table Data"]]>
+                <![CDATA["verify user can select country from suggestion dropdown"]]>
               </value>
             </param>
             <param index="1">
@@ -130,14 +66,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\harih\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57031}, goog:processID: 23528, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57031/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e245135570417080475fde6de713ecd4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper], [[ChromeDriver: chrome on windows (e245135570417080475fde6de713ecd4)] -> css selector: div.ui-menu-item-wrapper]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\harih\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57031}, goog:processID: 23528, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57031/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e245135570417080475fde6de713ecd4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.RahulShetty.Pages.AutomationPage.SelectSuggestion(AutomationPage.java:172)
+at com.RahulShetty.Stepdefs.AutomationPageStepDefs.userSelectsFromSuggestions(AutomationPageStepDefs.java:100)
+at ✽.user selects "India" from suggestions(file:///C:/Users/harih/eclipse-workspace/Com.RahulShetty/src/test/resources/features/Automation.feature:40)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38904" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:39:24 EST" duration-ms="897" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["verify simple alert"]]>
+                <![CDATA["Verify user can select multiple checkbox"]]>
               </value>
             </param>
             <param index="1">
@@ -146,10 +106,21 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browser" is null
+at com.RahulShetty.Base.BaseTest.LaunchBrowser(BaseTest.java:28)
+at com.RahulShetty.Hooks.Hooks.setUp(Hooks.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="38918" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:40:58 EST" duration-ms="94192" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:40 EST" duration-ms="39006" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:14 EST" duration-ms="110392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,11 +152,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:40 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:48 EST" duration-ms="8480" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:03 EST" duration-ms="99075" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Mouse Hover Options work"]]>
+                <![CDATA["Verify confirm alert works"]]>
               </value>
             </param>
             <param index="1">
@@ -197,7 +168,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:40 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:48 EST" duration-ms="8319" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:15 EST" duration-ms="111017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify each radio button can be selected individually"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Practise Page Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:40:56 EST" duration-ms="92904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify simple alert"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Practise Page Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:40:57 EST" duration-ms="93445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Web Table Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Practise Page Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:39:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:03 EST" duration-ms="98172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,7 +232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:40 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-04T03:54:48 EST" duration-ms="8370" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:40:58 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:15 EST" duration-ms="17040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,7 +248,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-04T03:54:48 EST" name="tearDownClass" finished-at="2025-12-04T03:54:48 EST" duration-ms="24" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:40:58 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-06T03:41:26 EST" duration-ms="28112" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Mouse Hover Options work"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Practise Page Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d52ca71186b7d1d3dca268cbe3d0c7e8, clickElement {id=f.DC27CB8797136F07C72300F440BB3A24.d.300CAF137ED90EBB89390202CDB14E04.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\harih\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62380}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62380/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d52ca71186b7d1d3dca268cbe3d0c7e8)] -> css selector: .mouse-hover-content a:nth-child(2)]
+Session ID: d52ca71186b7d1d3dca268cbe3d0c7e8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d52ca71186b7d1d3dca268cbe3d0c7e8, clickElement {id=f.DC27CB8797136F07C72300F440BB3A24.d.300CAF137ED90EBB89390202CDB14E04.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\harih\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62380}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62380/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d52ca71186b7d1d3dca268cbe3d0c7e8)] -> css selector: .mouse-hover-content a:nth-child(2)]
+Session ID: d52ca71186b7d1d3dca268cbe3d0c7e8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)
+at com.RahulShetty.Pages.AutomationPage.ClickReloadButton(AutomationPage.java:307)
+at com.RahulShetty.Stepdefs.AutomationPageStepDefs.userClicksReloadOption(AutomationPageStepDefs.java:250)
+at ✽.user clicks Reload option(file:///C:/Users/harih/eclipse-workspace/Com.RahulShetty/src/test/resources/features/Automation.feature:115)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.RahulShetty.Runners.TestRunner@8297b3a]" started-at="2025-12-06T03:41:26 EST" name="tearDownClass" finished-at="2025-12-06T03:41:26 EST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

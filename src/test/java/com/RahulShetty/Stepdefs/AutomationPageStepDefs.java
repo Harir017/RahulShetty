@@ -4,6 +4,7 @@ import java.util.Map;
 
 import org.testng.Assert;
 
+import com.RahulShetty.Base.BaseTest;
 import com.RahulShetty.Driver.DriverFactory;
 import com.RahulShetty.Pages.AutomationPage;
 
@@ -11,11 +12,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class AutomationPageStepDefs {
+public class AutomationPageStepDefs extends BaseTest {
 	AutomationPage page;
 
 	@Given("user is on Automation Practice Page")
 	public void user_is_on_automation_practice_page() {
+		NavigateTo(prop.getProperty("baseUrl"));
+		DriverFactory.getDriver().navigate().refresh();
 		page = new AutomationPage(DriverFactory.getDriver());
 	}
 

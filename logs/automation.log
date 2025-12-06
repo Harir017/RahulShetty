@@ -530,3 +530,303 @@
 2025-12-04 03:54:42 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
 2025-12-04 03:54:42 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
 2025-12-04 03:54:45 INFO  BaseTest:42 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: null
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: null
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: null
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: null
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:32 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:06:32 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:38 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:39 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:39 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:39 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:39 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:39 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:40 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:40 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:40 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:40 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:06:41 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:06:41 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:41 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:06:41 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:06:42 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:06:46 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:06:48 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:06:49 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:06:55 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:07:01 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:07:03 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:07:03 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:09:24 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:24 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:09:30 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:32 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:32 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:47 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:48 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:09:53 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:10:15 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:10:15 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:10:15 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:10:15 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:10:15 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:10:15 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:10:16 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:10:17 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:10:17 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:10:17 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:10:17 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:10:17 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:10:17 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:10:17 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:10:17 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:10:17 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:10:17 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:10:21 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: null
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:06 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:20:06 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:10 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:20:12 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:12 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:13 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:13 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:14 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:14 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:14 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:29 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:20:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:21:14 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:21:17 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:21:17 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:21:20 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:21:20 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:21:20 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:21:20 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:21:21 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:21:22 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:21:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:21:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:21:25 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:21:25 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:24:48 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:24:48 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:24:49 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:24:49 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:24:49 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:24:51 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:26:19 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:26:19 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:26:21 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:26:21 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:26:21 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:26:23 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: null
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:24 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:39:24 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:39:28 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:29 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:39:30 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:30 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:32 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:32 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:44 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:46 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:39:46 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:40:20 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:40:38 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:41:03 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:41:03 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:41:03 INFO  BaseTest:22 - Loading config properties...
+2025-12-06 03:41:03 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-06 03:41:09 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:41:09 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-06 03:41:09 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:41:09 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-06 03:41:09 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:41:09 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/
+2025-12-06 03:41:11 INFO  BaseTest:38 - Window maximized
+2025-12-06 03:41:12 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/AutomationPractice/

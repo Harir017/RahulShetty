@@ -1,17 +1,20 @@
 package com.RahulShetty.Pages;
 
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.math3.ml.neuralnet.sofm.LearningFactorFunction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.RahulShetty.Base.BasePage;
 
 public class AutomationPage extends BasePage {
@@ -164,7 +167,10 @@ public class AutomationPage extends BasePage {
 	}
 
 	public void SelectSuggestion(String value) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
+		List<WebElement> options = wait.until(ExpectedConditions.visibilityOfAllElements(suggenstionlist));
+		
 		for (WebElement option : suggenstionlist) {
 			if (option.getText().equalsIgnoreCase(value)) {
 				option.click();
