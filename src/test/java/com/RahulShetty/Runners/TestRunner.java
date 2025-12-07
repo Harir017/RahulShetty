@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 	    snippets = SnippetType.CAMELCASE,
 	    plugin = {"pretty", "html:target/cucumber-report.html",
 	    		 "rerun:target/failed_scenarios.txt"},
-	  // tags = "@runThis",
+	    tags = "@proto",
 	    monochrome = true
 	)
 	public class TestRunner extends AbstractTestNGCucumberTests {

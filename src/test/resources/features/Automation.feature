@@ -115,7 +115,6 @@ Scenario: Verify Mouse Hover Options work
 	And user clicks Reload option 
 	Then page should reload successfully 
 	
-	
 Scenario: Verify iframe interaction 
 	Given user is on Automation Practice Page 
 	When user switches to courses iframe 

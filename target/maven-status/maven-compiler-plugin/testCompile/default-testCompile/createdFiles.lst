@@ -1,3 +1,5 @@
+com\RahulShetty\Stepdefs\ProtoComerceStepDefs.class
+com\RahulShetty\Runners\FailedTestRunner.class
 com\RahulShetty\Hooks\Hooks.class
 com\RahulShetty\Stepdefs\AutomationPageStepDefs.class
 com\RahulShetty\Runners\TestRunner.class
