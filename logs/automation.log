@@ -979,3 +979,270 @@
 2025-12-07 09:32:45 INFO  BaseTest:36 - Implicit wait set to 10 seconds
 2025-12-07 09:32:45 INFO  BaseTest:38 - Window maximized
 2025-12-07 09:32:46 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/angularpractice/
+2025-12-07 09:39:27 INFO  BaseTest:22 - Loading config properties...
+2025-12-07 09:39:27 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-07 09:39:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-07 09:39:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-07 09:39:28 INFO  BaseTest:38 - Window maximized
+2025-12-07 09:39:29 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/angularpractice/
+2025-12-26 12:56:52 INFO  BaseTest:22 - Loading config properties...
+2025-12-26 12:56:52 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-26 12:56:57 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-26 12:56:57 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-26 12:56:57 INFO  BaseTest:38 - Window maximized
+2025-12-26 12:56:58 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/angularpractice/
+2025-12-26 17:25:40 INFO  BaseTest:22 - Loading config properties...
+2025-12-26 17:25:40 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-26 17:25:42 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-26 17:25:42 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-26 17:25:42 INFO  BaseTest:38 - Window maximized
+2025-12-26 18:36:16 INFO  BaseTest:22 - Loading config properties...
+2025-12-26 18:36:16 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-26 18:36:19 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-26 18:36:19 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-26 18:36:19 INFO  BaseTest:38 - Window maximized
+2025-12-26 18:36:23 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2025-12-31 09:46:05 INFO  BaseTest:22 - Loading config properties...
+2025-12-31 09:46:05 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-31 09:46:09 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-31 09:46:09 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-31 09:46:09 INFO  BaseTest:38 - Window maximized
+2025-12-31 09:46:13 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2025-12-31 10:22:22 INFO  BaseTest:22 - Loading config properties...
+2025-12-31 10:22:22 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-31 10:22:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-31 10:22:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-31 10:22:24 INFO  BaseTest:38 - Window maximized
+2025-12-31 10:22:27 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2025-12-31 11:16:12 INFO  BaseTest:22 - Loading config properties...
+2025-12-31 11:16:12 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-31 11:16:14 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-31 11:16:14 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-31 11:16:14 INFO  BaseTest:38 - Window maximized
+2025-12-31 11:16:19 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2025-12-31 11:27:02 INFO  BaseTest:22 - Loading config properties...
+2025-12-31 11:27:02 INFO  BaseTest:25 - Browser selected: chrome
+2025-12-31 11:27:04 INFO  BaseTest:31 - Chrome browser launched successfully
+2025-12-31 11:27:04 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2025-12-31 11:27:04 INFO  BaseTest:38 - Window maximized
+2025-12-31 11:27:07 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 04:33:54 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 04:33:54 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 04:33:56 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 04:33:56 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 04:33:56 INFO  BaseTest:38 - Window maximized
+2026-01-01 04:34:03 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 04:37:38 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 04:37:38 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 04:37:40 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 04:37:40 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 04:37:40 INFO  BaseTest:38 - Window maximized
+2026-01-01 04:37:44 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 11:51:16 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 11:51:16 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 11:51:19 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 11:51:19 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 11:51:20 INFO  BaseTest:38 - Window maximized
+2026-01-01 11:51:23 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 12:01:47 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 12:01:47 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 12:01:48 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 12:01:48 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 12:01:49 INFO  BaseTest:38 - Window maximized
+2026-01-01 12:01:52 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 12:06:12 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 12:06:12 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 12:06:13 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 12:06:13 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 12:06:13 INFO  BaseTest:38 - Window maximized
+2026-01-01 12:06:16 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 12:41:26 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 12:41:26 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 12:41:27 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 12:41:27 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 12:41:27 INFO  BaseTest:38 - Window maximized
+2026-01-01 12:41:38 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 12:47:51 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 12:47:51 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 12:47:53 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 12:47:53 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 12:47:53 INFO  BaseTest:38 - Window maximized
+2026-01-01 12:47:58 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 12:55:43 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 12:55:43 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 12:55:45 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 12:55:45 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 12:55:45 INFO  BaseTest:38 - Window maximized
+2026-01-01 12:55:49 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 12:58:46 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 12:58:46 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 12:58:48 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 12:58:48 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 12:58:48 INFO  BaseTest:38 - Window maximized
+2026-01-01 12:58:48 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:07:05 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:07:05 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:07:07 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:07:07 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:07:07 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:07:12 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:12:42 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:12:42 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:12:43 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:12:43 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:12:43 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:12:48 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:25:24 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:25:24 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:25:26 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:25:26 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:25:26 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:25:30 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:29:42 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:29:42 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:29:43 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:29:43 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:29:43 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:29:47 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:32:28 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:32:28 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:32:30 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:32:30 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:32:30 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:32:34 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:35:54 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:35:54 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:35:56 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:35:56 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:36:32 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:36:32 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:36:33 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:36:33 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:36:34 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:36:35 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 13:39:18 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 13:39:18 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 13:39:20 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 13:39:20 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 13:39:20 INFO  BaseTest:38 - Window maximized
+2026-01-01 13:39:24 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-01 14:14:41 INFO  BaseTest:22 - Loading config properties...
+2026-01-01 14:14:41 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-01 14:14:42 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-01 14:14:42 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-01 14:14:42 INFO  BaseTest:38 - Window maximized
+2026-01-01 14:14:46 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 02:43:24 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 02:43:24 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 02:43:27 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 02:43:27 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 02:43:27 INFO  BaseTest:38 - Window maximized
+2026-01-02 02:43:33 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 03:53:21 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 03:53:21 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 03:53:23 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 03:53:23 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 03:53:23 INFO  BaseTest:38 - Window maximized
+2026-01-02 03:53:24 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:15:13 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:15:13 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:15:15 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:15:15 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:15:15 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:15:19 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:22:02 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:22:02 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:22:04 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:22:04 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:22:04 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:22:09 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:25:19 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:25:19 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:25:21 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:25:21 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:25:21 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:25:27 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:27:15 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:27:15 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:27:17 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:27:17 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:27:17 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:27:22 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:31:55 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:31:55 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:31:57 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:31:57 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:31:58 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:32:05 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:36:46 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:36:46 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:36:48 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:36:48 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:36:49 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:36:56 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:39:49 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:39:49 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:39:51 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:39:51 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:39:51 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:39:57 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:46:31 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:46:31 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:46:33 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:46:33 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:46:33 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:46:37 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:53:33 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:53:33 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:53:36 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:53:36 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:53:36 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:53:43 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 04:54:30 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 04:54:30 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 04:54:32 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 04:54:32 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 04:54:32 INFO  BaseTest:38 - Window maximized
+2026-01-02 04:54:34 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 05:14:28 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 05:14:28 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 05:14:29 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 05:14:29 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 05:14:30 INFO  BaseTest:38 - Window maximized
+2026-01-02 05:14:34 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 06:14:22 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 06:14:22 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 06:14:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 06:14:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 06:14:24 INFO  BaseTest:38 - Window maximized
+2026-01-02 06:14:31 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 06:24:16 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 06:24:16 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 06:24:17 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 06:24:17 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 06:24:17 INFO  BaseTest:38 - Window maximized
+2026-01-02 06:24:22 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 06:24:41 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 06:24:41 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 06:24:43 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 06:24:43 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 06:24:43 INFO  BaseTest:38 - Window maximized
+2026-01-02 06:24:47 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 06:25:55 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 06:25:55 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 06:25:56 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 06:25:56 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 06:25:57 INFO  BaseTest:38 - Window maximized
+2026-01-02 06:26:00 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 06:27:03 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 06:27:03 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 06:27:05 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 06:27:05 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 06:27:05 INFO  BaseTest:38 - Window maximized
+2026-01-02 06:27:09 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-02 06:44:59 INFO  BaseTest:22 - Loading config properties...
+2026-01-02 06:44:59 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-02 06:45:00 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-02 06:45:00 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-02 06:45:00 INFO  BaseTest:38 - Window maximized
+2026-01-02 06:45:04 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/

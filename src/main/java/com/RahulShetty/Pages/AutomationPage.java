@@ -171,7 +171,7 @@ public class AutomationPage extends BasePage {
 
 		List<WebElement> options = wait.until(ExpectedConditions.visibilityOfAllElements(suggenstionlist));
 		
-		for (WebElement option : suggenstionlist) {
+		for (WebElement option : options) {
 			if (option.getText().equalsIgnoreCase(value)) {
 				option.click();
 				return;
