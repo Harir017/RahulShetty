@@ -1246,3 +1246,100 @@
 2026-01-02 06:45:00 INFO  BaseTest:36 - Implicit wait set to 10 seconds
 2026-01-02 06:45:00 INFO  BaseTest:38 - Window maximized
 2026-01-02 06:45:04 INFO  BaseTest:44 - Navigated to: https://rahulshettyacademy.com/seleniumPractise/#/
+2026-01-11 03:36:28 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 03:36:28 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 03:36:34 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 03:36:34 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 03:36:35 INFO  BaseTest:38 - Window maximized
+2026-01-11 03:39:03 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 03:39:03 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 03:39:05 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 03:39:05 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 03:39:05 INFO  BaseTest:38 - Window maximized
+2026-01-11 03:41:31 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 03:41:31 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 03:41:33 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 03:41:33 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 03:41:33 INFO  BaseTest:38 - Window maximized
+2026-01-11 03:45:51 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 03:45:51 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 03:45:52 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 03:45:52 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 03:45:53 INFO  BaseTest:38 - Window maximized
+2026-01-11 03:59:44 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 03:59:44 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 03:59:45 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 03:59:45 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 03:59:45 INFO  BaseTest:38 - Window maximized
+2026-01-11 03:59:53 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 04:01:09 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 04:01:09 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 04:01:11 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 04:01:11 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 04:01:11 INFO  BaseTest:38 - Window maximized
+2026-01-11 04:01:19 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 04:04:13 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 04:04:13 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 04:04:14 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 04:04:14 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 04:04:14 INFO  BaseTest:38 - Window maximized
+2026-01-11 04:04:21 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 04:46:22 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 04:46:22 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 04:46:24 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 04:46:24 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 04:46:24 INFO  BaseTest:38 - Window maximized
+2026-01-11 04:46:26 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 04:51:03 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 04:51:03 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 04:51:04 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 04:51:04 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 04:51:04 INFO  BaseTest:38 - Window maximized
+2026-01-11 04:51:12 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 05:27:32 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 05:27:32 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 05:27:33 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 05:27:33 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 05:27:33 INFO  BaseTest:38 - Window maximized
+2026-01-11 05:27:38 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 05:44:58 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 05:44:58 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 05:44:59 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 05:44:59 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 05:45:00 INFO  BaseTest:38 - Window maximized
+2026-01-11 05:45:06 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 06:46:52 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 06:46:52 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 06:46:55 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 06:46:55 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 06:46:55 INFO  BaseTest:38 - Window maximized
+2026-01-11 06:47:01 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 06:47:08 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/
+2026-01-11 07:23:26 INFO  BaseTest:22 - Loading config properties...
+2026-01-11 07:23:26 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-11 07:23:28 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-11 07:23:28 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-11 07:23:28 INFO  BaseTest:38 - Window maximized
+2026-01-11 07:23:31 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-11 07:23:39 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/
+2026-01-12 04:59:21 INFO  BaseTest:22 - Loading config properties...
+2026-01-12 04:59:21 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-12 04:59:25 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-12 04:59:25 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-12 04:59:25 INFO  BaseTest:38 - Window maximized
+2026-01-12 04:59:30 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-12 04:59:35 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/
+2026-01-12 05:02:59 INFO  BaseTest:22 - Loading config properties...
+2026-01-12 05:02:59 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-12 05:03:00 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-12 05:03:00 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-12 05:03:00 INFO  BaseTest:38 - Window maximized
+2026-01-12 05:03:05 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-12 05:03:12 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/
+2026-01-12 05:09:55 INFO  BaseTest:22 - Loading config properties...
+2026-01-12 05:09:55 INFO  BaseTest:25 - Browser selected: chrome
+2026-01-12 05:09:57 INFO  BaseTest:31 - Chrome browser launched successfully
+2026-01-12 05:09:57 INFO  BaseTest:36 - Implicit wait set to 10 seconds
+2026-01-12 05:09:57 INFO  BaseTest:38 - Window maximized
+2026-01-12 05:10:04 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/admin/index.php?route=catalog/product&user_token=iTo5buhrW2O2uxIbpY7mGWVGQq4szaLo
+2026-01-12 05:10:11 INFO  BaseTest:44 - Navigated to: https://demo3x.opencartreports.com/

@@ -9,7 +9,6 @@ import com.RahulShetty.Base.BaseTest;
 import com.RahulShetty.Driver.DriverFactory;
 import com.RahulShetty.Pages.CartPage;
 
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
