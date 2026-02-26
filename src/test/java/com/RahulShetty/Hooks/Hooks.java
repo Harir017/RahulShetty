@@ -1,9 +1,13 @@
 package com.RahulShetty.Hooks;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
 import com.RahulShetty.Base.BaseTest;
 import com.RahulShetty.Driver.DriverFactory;
 import com.RahulShetty.Reports.ExtentManager;
 import com.RahulShetty.utils.ScreenshotUtils;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 import io.cucumber.java.After;
@@ -26,9 +30,12 @@ public class Hooks extends BaseTest {
 
 		try {
 			if (scenario.isFailed()) {
-				String screenshotpath = ScreenshotUtils.captureSS(DriverFactory.getDriver(), scenario.getName());
-				ExtentManager.test.log(Status.FAIL, "Scenario Failed");
-				ExtentManager.test.addScreenCaptureFromPath(screenshotpath);
+
+				String base64Screenshot = ((TakesScreenshot) DriverFactory.getDriver())
+						.getScreenshotAs(OutputType.BASE64);
+
+				ExtentManager.test.fail("Scenario Failed",
+						MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
 			} else {
 				ExtentManager.test.log(Status.PASS, "Scenario passed");
 			}
@@ -38,7 +45,7 @@ public class Hooks extends BaseTest {
 		}
 
 		if (DriverFactory.getDriver() != null) {
-		    DriverFactory.getDriver().quit();
+			DriverFactory.getDriver().quit();
 		}
 
 		ExtentManager.extent.flush();

@@ -1,1 +1,6 @@
 /target/
+/ExtentReports/
+/reports/
+/logs/
+/test-output/
+/*.log

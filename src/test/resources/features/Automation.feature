@@ -1,3 +1,4 @@
+@Automation
 Feature: Practise Page Testing 
 
 Scenario: Verify each radio button can be selected individually 
