@@ -6,11 +6,11 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentManager {
 	public static ExtentReports extent;
-	public static ExtentTest test;
+	private static ThreadLocal<ExtentTest> tlTest = new ThreadLocal<>();
 
 	static {
-		 String folderPath = System.getProperty("user.dir") + "/ExtentReports/";
-	        String reportPath = folderPath + "ExtentReport.html";
+		String folderPath = System.getProperty("user.dir") + "/ExtentReports/";
+		String reportPath = folderPath + "ExtentReport.html";
 
 		ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 		spark.config().setReportName("Automation Test Results");
@@ -18,5 +18,13 @@ public class ExtentManager {
 
 		extent = new ExtentReports();
 		extent.attachReporter(spark);
+	}
+
+	public static void setTest(ExtentTest test) {
+		tlTest.set(test);
+	}
+
+	public static ExtentTest getTest() {
+		return tlTest.get();
 	}
 }

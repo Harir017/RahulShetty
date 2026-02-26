@@ -9,6 +9,10 @@ public class TestListener implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 
-		DriverFactory.setTestError(result.getThrowable());
+		Throwable error = result.getThrowable();
+
+		if (error != null) {
+			DriverFactory.setTestError(error);
+		}
 	}
 }

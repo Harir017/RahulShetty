@@ -18,9 +18,9 @@ public class Hooks extends BaseTest {
 	@Before
 	public void setUp(Scenario scenario) {
 		LaunchBrowser();
-		ExtentManager.test = ExtentManager.extent.createTest(scenario.getName());
-		ExtentManager.test.log(Status.INFO, "Scenario Started; " + scenario.getName());
+		ExtentManager.setTest(ExtentManager.extent.createTest(scenario.getName()));
 
+		ExtentManager.getTest().log(Status.INFO, "Scenario Started; " + scenario.getName());
 	}
 
 	@After
@@ -32,20 +32,21 @@ public class Hooks extends BaseTest {
 				Throwable error = DriverFactory.getTestError();
 
 				if (error != null) {
-					ExtentManager.test.fail(error); // 🔥 Stack trace + line number
+					ExtentManager.getTest().fail(error);
 				}
 
 				String base64Screenshot = ((TakesScreenshot) DriverFactory.getDriver())
 						.getScreenshotAs(OutputType.BASE64);
 
-				ExtentManager.test.fail("Failure Screenshot",
+				ExtentManager.getTest().fail("Failure Screenshot",
 						MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
+
 			} else {
-				ExtentManager.test.pass("Scenario Passed");
+				ExtentManager.getTest().pass("Scenario Passed");
 			}
 
 		} catch (Exception e) {
-			ExtentManager.test.warning("Error in tearDown: " + e.getMessage());
+			ExtentManager.getTest().warning("Error in tearDown: " + e.getMessage());
 		}
 
 		if (DriverFactory.getDriver() != null) {
