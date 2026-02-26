@@ -14,7 +14,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 	    snippets = SnippetType.CAMELCASE,
 	    plugin = {"pretty", "html:target/cucumber-report.html",
 	    		 "rerun:target/failed_scenarios.txt"},
-	    tags = "@db",
+	    tags = "@Automation",
 	    monochrome = true 
 	)
 	@Listeners(com.RahulShetty.Listeners.TestListener.class)
