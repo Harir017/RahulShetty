@@ -46,11 +46,11 @@ public class BaseTest {
 		    options.addArguments("--disable-autofill-keyboard-accessory-view");
 		    options.addArguments("--disable-features=AutofillServerCommunication");
 
-		    options.addArguments("--headless=new");
-		    options.addArguments("--no-sandbox");
-		    options.addArguments("--disable-dev-shm-usage");
+		   // options.addArguments("--headless=new");
+		    // options.addArguments("--no-sandbox");
+		    // options.addArguments("--disable-dev-shm-usage");
 
-		    WebDriverManager.chromedriver().setup();
+		    WebDriverManager.chromedriver().clearDriverCache().setup();
 		    driver = new ChromeDriver(options);
 		    log.info("Chrome browser launched successfully");
 		}
