@@ -1,6 +1,7 @@
 package com.RahulShetty.Runners;
 
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -14,8 +15,9 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 	    plugin = {"pretty", "html:target/cucumber-report.html",
 	    		 "rerun:target/failed_scenarios.txt"},
 	    tags = "@db",
-	    monochrome = true
+	    monochrome = true 
 	)
+	@Listeners(com.RahulShetty.Listeners.TestListener.class)
 	public class TestRunner extends AbstractTestNGCucumberTests {
 	@Override
 	@DataProvider(parallel=true)

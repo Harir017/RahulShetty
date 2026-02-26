@@ -24,28 +24,35 @@ public class Hooks extends BaseTest {
 	}
 
 	@After
-
 	public void tearDown(Scenario scenario) {
 
 		try {
 			if (scenario.isFailed()) {
 
+				Throwable error = DriverFactory.getTestError();
+
+				if (error != null) {
+					ExtentManager.test.fail(error); // 🔥 Stack trace + line number
+				}
+
 				String base64Screenshot = ((TakesScreenshot) DriverFactory.getDriver())
 						.getScreenshotAs(OutputType.BASE64);
 
-				ExtentManager.test.fail("Scenario Failed",
+				ExtentManager.test.fail("Failure Screenshot",
 						MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
 			} else {
-				ExtentManager.test.log(Status.PASS, "Scenario passed");
+				ExtentManager.test.pass("Scenario Passed");
 			}
 
 		} catch (Exception e) {
-			ExtentManager.test.log(Status.WARNING, "Error in tearDown: " + e.getMessage());
+			ExtentManager.test.warning("Error in tearDown: " + e.getMessage());
 		}
 
 		if (DriverFactory.getDriver() != null) {
 			DriverFactory.getDriver().quit();
 		}
+
+		DriverFactory.setTestError(null);
 
 		ExtentManager.extent.flush();
 	}
