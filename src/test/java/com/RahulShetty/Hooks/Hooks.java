@@ -6,7 +6,6 @@ import org.openqa.selenium.TakesScreenshot;
 import com.RahulShetty.Base.BaseTest;
 import com.RahulShetty.Driver.DriverFactory;
 import com.RahulShetty.Reports.ExtentManager;
-import com.RahulShetty.utils.ScreenshotUtils;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
