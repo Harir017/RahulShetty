@@ -3,6 +3,7 @@ package com.RahulShetty.Stepdefs;
 import java.time.Duration;
 import java.util.Map;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -272,11 +273,19 @@ public class AutomationPageStepDefs extends BaseTest {
 	@Then("user should be navigated to Courses page")
 	public void userShouldBeNavigatedToCoursesPage() {
 
-		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(15));
+		 WebDriver driver = DriverFactory.getDriver();
+		    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-		wait.until(ExpectedConditions.urlContains("courses"));
+		    // Switch to new tab
+		    for (String windowHandle : driver.getWindowHandles()) {
+		        driver.switchTo().window(windowHandle);
+		    }
 
-		Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().contains("courses"),
-				"User is NOT navigated to Courses page");
-	}
-}
+		    wait.until(ExpectedConditions.urlContains("courses"));
+
+		    Assert.assertTrue(
+		            driver.getCurrentUrl().contains("courses"),
+		            "User is NOT navigated to Courses page"
+		    );
+}}
+
