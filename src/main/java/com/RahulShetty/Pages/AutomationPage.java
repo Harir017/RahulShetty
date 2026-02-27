@@ -313,9 +313,15 @@ public class AutomationPage extends BasePage {
 	}
 
 	public boolean isLearningPathsVisible() {
-		By heading = By.xpath("//h1[contains(text(),'Learning Paths')]");
+		 By heading = By.xpath("//h1[contains(text(),'Learning Paths')]");
 
-		return wait.until(ExpectedConditions.visibilityOfElementLocated(heading)).isDisplayed();
+		    WebDriverWait longWait = new WebDriverWait(driver, Duration.ofSeconds(20));
+
+		    WebElement element = longWait.until(
+		            ExpectedConditions.visibilityOfElementLocated(heading)
+		    );
+
+		    return element.isDisplayed();
 	}
 
 	public void SwitchBackToDefault() {
