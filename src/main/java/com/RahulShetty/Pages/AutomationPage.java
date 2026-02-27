@@ -308,24 +308,20 @@ public class AutomationPage extends BasePage {
 	}
 
 	public void switchToIframe() {
-	    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("courses-iframe")));
+		driver.switchTo().frame(coursesIframe);
 	}
 
 	public void clickViewAllCoursesInsideIframe() {
 
-	    By viewAllCourses = By.cssSelector("a.view-all-courses-btn");
+		By viewAllCourses = By.cssSelector("a[class='btn btn-primary view-all-courses-btn']");
 
-	    WebElement button = wait.until(
-	            ExpectedConditions.visibilityOfElementLocated(viewAllCourses)
-	    );
+		WebElement button = wait.until(ExpectedConditions.visibilityOfElementLocated(viewAllCourses));
 
-	    ((JavascriptExecutor) driver)
-	            .executeScript("arguments[0].scrollIntoView(true);", button);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", button);
 
-	    wait.until(ExpectedConditions.elementToBeClickable(button));
+		wait.until(ExpectedConditions.elementToBeClickable(button));
 
-	    button.click();
+		button.click();
 
-	    driver.switchTo().defaultContent(); 
 	}
 }

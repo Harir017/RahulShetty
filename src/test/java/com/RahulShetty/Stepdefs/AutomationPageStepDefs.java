@@ -273,19 +273,11 @@ public class AutomationPageStepDefs extends BaseTest {
 	@Then("user should be navigated to Courses page")
 	public void userShouldBeNavigatedToCoursesPage() {
 
-		 WebDriver driver = DriverFactory.getDriver();
-		    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		WebDriver driver = DriverFactory.getDriver();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-		    // Switch to new tab
-		    for (String windowHandle : driver.getWindowHandles()) {
-		        driver.switchTo().window(windowHandle);
-		    }
+		wait.until(ExpectedConditions.urlContains("courses"));
 
-		    wait.until(ExpectedConditions.urlContains("courses"));
-
-		    Assert.assertTrue(
-		            driver.getCurrentUrl().contains("courses"),
-		            "User is NOT navigated to Courses page"
-		    );
-}}
-
+		Assert.assertTrue(driver.getCurrentUrl().contains("courses"), "User is NOT navigated to Courses page");
+	}
+}
