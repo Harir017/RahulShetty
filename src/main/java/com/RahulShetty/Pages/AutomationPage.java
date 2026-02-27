@@ -314,7 +314,7 @@ public class AutomationPage extends BasePage {
 
 	public void ClickLearningPathsInIframe() {
 
-		By learningPaths = By.cssSelector("a[href='/learning-paths']");
+		By learningPaths = By.cssSelector("a[href='/learning-path']");
 
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(learningPaths));
 
