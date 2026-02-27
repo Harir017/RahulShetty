@@ -170,7 +170,7 @@ public class AutomationPage extends BasePage {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
 		List<WebElement> options = wait.until(ExpectedConditions.visibilityOfAllElements(suggenstionlist));
-		
+
 		for (WebElement option : options) {
 			if (option.getText().equalsIgnoreCase(value)) {
 				option.click();
@@ -309,20 +309,25 @@ public class AutomationPage extends BasePage {
 
 	public void SwitchToIframe() {
 
-	    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(
-	            By.id("courses-iframe")
-	    ));
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("courses-iframe")));
 	}
 
 	public void ClickLearningPathsInIframe() {
 
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", browseLearningPathsLink);
-		browseLearningPathsLink.click();
+		By learningPaths = By.cssSelector("a[href='/learning-paths']");
+
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(learningPaths));
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+
+		element.click();
 
 	}
 
 	public boolean isLearningPathsVisible() {
-		return browseLearningPathsLink.isDisplayed();
+		By learningPaths = By.cssSelector("a[href='/learning-paths']");
+
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(learningPaths)).isDisplayed();
 	}
 
 	public void SwitchBackToDefault() {
