@@ -8,14 +8,17 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-	    features = "src/test/resources/features",      
-	   
+	    features = "src/test/resources/features",
 	    glue = {"com.RahulShetty.Stepdefs", "com.RahulShetty.Hooks"},
 	    snippets = SnippetType.CAMELCASE,
-	    plugin = {"pretty", "html:target/cucumber-report.html",
-	    		 "rerun:target/failed_scenarios.txt"},
+	    plugin = {
+	        "pretty",
+	        "html:target/cucumber-report.html",
+	        "rerun:target/failed_scenarios.txt",
+	        "com.RahulShetty.Listeners.CucumberListener"
+	    },
 	    tags = "@Automation",
-	    monochrome = true 
+	    monochrome = true
 	)
 	@Listeners(com.RahulShetty.Listeners.TestListener.class)
 	public class TestRunner extends AbstractTestNGCucumberTests {
