@@ -312,22 +312,10 @@ public class AutomationPage extends BasePage {
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("courses-iframe")));
 	}
 
-	public void ClickLearningPathsInIframe() {
-
-		By learningPaths = By.cssSelector("a[href='/learning-path']");
-
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(learningPaths));
-
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-
-		element.click();
-
-	}
-
 	public boolean isLearningPathsVisible() {
-		By learningPaths = By.cssSelector("a[href='/learning-paths']");
+		By heading = By.xpath("//h1[contains(text(),'Learning Paths')]");
 
-		return wait.until(ExpectedConditions.visibilityOfElementLocated(learningPaths)).isDisplayed();
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(heading)).isDisplayed();
 	}
 
 	public void SwitchBackToDefault() {

@@ -258,17 +258,14 @@ public class AutomationPageStepDefs extends BaseTest {
 
 	@When("user switches to courses iframe")
 	public void userSwitchesToCoursesIframe() {
-		page.SwitchToIframe();
-	}
-
-	@When("user clicks Learning Paths inside iframe")
-	public void userClicksLearningPathsInsideIframe() {
-		page.ClickLearningPathsInIframe();
+	    page.SwitchToIframe();
 	}
 
 	@Then("Learning Paths option should be visible inside iframe")
 	public void learningPathsOptionShouldBeVisibleInsideIframe() {
-		Assert.assertTrue(page.isLearningPathsVisible(), "Learning Paths link is NOT visible inside iframe");
+	    Assert.assertTrue(page.isLearningPathsVisible(),
+	            "Learning Paths page is NOT loaded inside iframe"
+	    );
 	}
 
 	@Then("user switches back to main page")

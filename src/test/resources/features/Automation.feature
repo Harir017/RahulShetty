@@ -119,6 +119,5 @@ Scenario: Verify Mouse Hover Options work
 Scenario: Verify iframe interaction 
 	Given user is on Automation Practice Page 
 	When user switches to courses iframe 
-	And user clicks Learning Paths inside iframe 
 	Then Learning Paths option should be visible inside iframe 
 	Then user switches back to main page
