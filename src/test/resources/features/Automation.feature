@@ -117,7 +117,7 @@ Scenario: Verify Mouse Hover Options work
 	Then page should reload successfully 
 	
 Scenario: Verify iframe interaction 
-	Given user is on Automation Practice Page 
-	When user switches to courses iframe 
-	Then Learning Paths option should be visible inside iframe 
-	Then user switches back to main page
+    Given user is on Automation Practice Page
+    When user switches to courses iframe
+    And user clicks View All Courses button inside iframe
+    Then user should be navigated to Courses page

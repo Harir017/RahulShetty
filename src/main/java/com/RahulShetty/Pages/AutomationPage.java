@@ -307,24 +307,25 @@ public class AutomationPage extends BasePage {
 		ReloadHoverButton.click();
 	}
 
-	public void SwitchToIframe() {
-
-		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("courses-iframe")));
+	public void switchToIframe() {
+	    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("courses-iframe")));
 	}
 
-	public boolean isLearningPathsVisible() {
-		 By heading = By.xpath("//h1[contains(text(),'Learning Paths')]");
+	public void clickViewAllCoursesInsideIframe() {
 
-		    WebDriverWait longWait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	    By viewAllCourses = By.cssSelector("a.view-all-courses-btn");
 
-		    WebElement element = longWait.until(
-		            ExpectedConditions.visibilityOfElementLocated(heading)
-		    );
+	    WebElement button = wait.until(
+	            ExpectedConditions.visibilityOfElementLocated(viewAllCourses)
+	    );
 
-		    return element.isDisplayed();
-	}
+	    ((JavascriptExecutor) driver)
+	            .executeScript("arguments[0].scrollIntoView(true);", button);
 
-	public void SwitchBackToDefault() {
-		driver.switchTo().defaultContent();
+	    wait.until(ExpectedConditions.elementToBeClickable(button));
+
+	    button.click();
+
+	    driver.switchTo().defaultContent(); 
 	}
 }

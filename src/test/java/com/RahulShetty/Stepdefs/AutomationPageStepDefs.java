@@ -1,7 +1,10 @@
 package com.RahulShetty.Stepdefs;
 
+import java.time.Duration;
 import java.util.Map;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.RahulShetty.Base.BaseTest;
@@ -258,18 +261,22 @@ public class AutomationPageStepDefs extends BaseTest {
 
 	@When("user switches to courses iframe")
 	public void userSwitchesToCoursesIframe() {
-	    page.SwitchToIframe();
+		page.switchToIframe();
 	}
 
-	@Then("Learning Paths option should be visible inside iframe")
-	public void learningPathsOptionShouldBeVisibleInsideIframe() {
-	    Assert.assertTrue(page.isLearningPathsVisible(),
-	            "Learning Paths page is NOT loaded inside iframe"
-	    );
+	@When("user clicks View All Courses button inside iframe")
+	public void userClicksViewAllCoursesInsideIframe() {
+		page.clickViewAllCoursesInsideIframe();
 	}
 
-	@Then("user switches back to main page")
-	public void userSwitchesBackToMainPage() {
-		page.SwitchBackToDefault();
+	@Then("user should be navigated to Courses page")
+	public void userShouldBeNavigatedToCoursesPage() {
+
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(15));
+
+		wait.until(ExpectedConditions.urlContains("courses"));
+
+		Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().contains("courses"),
+				"User is NOT navigated to Courses page");
 	}
 }
