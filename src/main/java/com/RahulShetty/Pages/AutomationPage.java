@@ -308,8 +308,10 @@ public class AutomationPage extends BasePage {
 	}
 
 	public void SwitchToIframe() {
-		driver.switchTo().frame(coursesIframe);
 
+	    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(
+	            By.id("courses-iframe")
+	    ));
 	}
 
 	public void ClickLearningPathsInIframe() {
